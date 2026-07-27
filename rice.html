@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tiamin Rice | Tiamin Group</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="assets/style.css">
+    
+    <style>
+        .inner-hero {
+            padding: 180px 0 100px;
+            background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 100%);
+            color: #fff;
+            text-align: center;
+        }
+        .inner-hero h1 { font-weight: 800; font-size: 48px; margin-bottom: 20px; }
+        .inner-hero p { font-size: 18px; max-width: 600px; margin: 0 auto; color: rgba(255,255,255,0.8); }
+        .content-section { padding: 80px 0; }
+        .feature-list li {
+            margin-bottom: 15px;
+            position: relative;
+            padding-left: 30px;
+        }
+        .feature-list li::before {
+            content: '\f058';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            color: var(--color-accent);
+            position: absolute;
+            left: 0;
+            top: 2px;
+        }
+        .process-card {
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            height: 100%;
+            border-top: 4px solid var(--color-accent);
+        }
+        .process-card h4 { font-weight: 700; color: var(--color-primary); margin-bottom: 15px; }
+        .goal-card {
+            background: var(--color-primary);
+            color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            height: 100%;
+        }
+        .goal-card i { font-size: 40px; color: var(--color-accent); margin-bottom: 20px; }
+        .goal-card h4 { font-weight: 700; margin-bottom: 15px; color: #fff; }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header" id="masthead">
+        <div class="container">
+            <div class="header-inner">
+                <div class="site-branding">
+                    <a href="index.html" class="logo-image"><img src="assets/logo.jpg" alt="Tiamin Group" style="height: 65px; width: auto; transition: transform 0.3s ease;"></a>
+                </div>
+                <nav class="site-navigation">
+                    <ul class="main-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Tiamin</a></li>
+                        <li class="has-dropdown">
+                            <a href="index.html#businesses" class="active">Our Subsidiaries <i class="fas fa-chevron-down" style="font-size: 10px; margin-left: 5px;"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="rice.html" class="active">Rice Processing</a></li>
+                                <li><a href="tcx.html">Commodity Exchange</a></li>
+                                <li><a href="gold.html">Global Trading</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="index.html#sustainability">Sustainability</a></li>
+                        <li class="greymenu"><a href="index.html#media">News & Media</a></li>
+                        <li class="greymenu"><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div class="d-lg-none mobile-toggle">
+                    <button class="btn" style="font-size:24px; color:var(--color-primary);"><i class="fas fa-bars"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- INNER HERO -->
+    <section class="inner-hero">
+        <div class="container">
+            <h1>Tiamin Rice Limited</h1>
+            <p>Cultivating and processing high-quality rice with precision, scale, and sustainable agricultural practices.</p>
+        </div>
+    </section>
+
+    <!-- ABOUT TIAMIN RICE -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="assets/WhatsApp%20Image%202026-07-27%20at%2000.41.19%20(2).jpeg" alt="Tiamin Rice Production" style="width: 100%; border-radius: 12px; box-shadow: 0 20px 40px rgba(0,0,0,0.1); aspect-ratio: 4/3; object-fit: cover;">
+                </div>
+                <div class="col-lg-6 pl-lg-5">
+                    <div class="cms-heading text-left mb-4">
+                        <h6 style="color:var(--color-accent); font-weight:700; text-transform:uppercase; letter-spacing:2px;">Premium Quality</h6>
+                        <h2 class="custom-heading text-left">Why Choose Tiamin Rice?</h2>
+                        <span class="heading-underline ml-0" style="margin-left:0;"></span>
+                    </div>
+                    <ul class="list-unstyled feature-list text-muted">
+                        <li>Over 6 years of stretched experience in premium rice milling.</li>
+                        <li>Massive capacity of 5.3 million bags of 50kg milled rice annually.</li>
+                        <li>Reliable, convenient, and reasonable pricing structure.</li>
+                        <li>Benchmark quality assurance system continuously updated to meet strict regulatory requirements.</li>
+                        <li>Backward-integrated farming for paddy rice to ensure all regulatory and food safety issues (pesticides, aflatoxins) are strictly met.</li>
+                        <li>Skillful and competent workforce with 24/7 monitoring of the production process.</li>
+                        <li>We personally guarantee that you have never tried anything like our quality and services.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INFRASTRUCTURE & PROCUREMENT -->
+    <section class="content-section bg-light">
+        <div class="container">
+            <div class="cms-heading text-center mb-5">
+                <h6 style="color:var(--color-accent); font-weight:700; text-transform:uppercase; letter-spacing:2px;">Scale & Capacity</h6>
+                <h2 class="custom-heading mx-auto">Our Strength & Infrastructure</h2>
+                <span class="heading-underline mx-auto"></span>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="process-card">
+                        <h4>State-of-the-art Mills</h4>
+                        <p>Tiamin Rice Ltd owns two massive rice mills located in Kano (Corporate HQ) and Bauchi. Kano has become a famous hub for producing the best quality raw, steam, and parboiled rice.</p>
+                        <p>Our daily production capacity is 920 Metric tonnes (100% Sortex clean). The mills are equipped with the latest machinery and technology imported from China and India. Spanning 7 hectares, our facilities boast advanced processing, quality control, packaging, and warehousing units including stone separators, huskers, and multi-graders.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="process-card">
+                        <h4 id="farm">Farming & Procurement</h4>
+                        <p>About 40% of the raw material needed for our mills is derived from our 10,000-hectare irrigation farm at Udubo in Gamawa LGA of Bauchi State. We deploy ecosystem-based approaches designed to improve the sustainability of production systems and yield.</p>
+                        <p>Our procurement involves deep understanding of the market, regular interaction with farmers, and engaging local farmers with inputs and extension services to ensure premium quality paddy right from the source.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCESSING TIMELINE -->
+    <section class="content-section">
+        <div class="container">
+            <div class="cms-heading text-center mb-5">
+                <h6 style="color:var(--color-accent); font-weight:700; text-transform:uppercase; letter-spacing:2px;">Operations</h6>
+                <h2 class="custom-heading mx-auto">Processing & Milling</h2>
+                <span class="heading-underline mx-auto"></span>
+                <p class="mt-3 text-muted max-w-700 mx-auto">Rice in its natural form is inedible. The main goal of our world-class milling is the precise removal of barns and hulls to make it beautifully polished and edible.</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="process-card text-center" style="border-top-color: #124734;">
+                        <div style="font-size: 50px; color: #124734; margin-bottom: 20px;"><i class="fas fa-temperature-high"></i></div>
+                        <h4>Drying Process</h4>
+                        <p class="text-muted">Fully mechanized and automatic gradual drying systems with online sensors control temperatures. This prevents breaking, bacterial infection, or fermentation, keeping the natural aroma intact.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="process-card text-center" style="border-top-color: #FF7B00;">
+                        <div style="font-size: 50px; color: #FF7B00; margin-bottom: 20px;"><i class="fas fa-water"></i></div>
+                        <h4>Parboiling</h4>
+                        <p class="text-muted">Exposure to steam to remove the hull and barn layer. We use a committed Parboiling plant furnished with specially designed soaking bins and sensor-based water temperature controllers.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="process-card text-center" style="border-top-color: #059669;">
+                        <div style="font-size: 50px; color: #059669; margin-bottom: 20px;"><i class="fas fa-cogs"></i></div>
+                        <h4>Milling</h4>
+                        <p class="text-muted">The final step exposes seed grains to varied sophisticated machines like Magnets, Paddy Separators, De-Huskers, and Precision Sizers to provide exceptionally refined and nutritious rice.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BY PRODUCTS & CERTIFICATION -->
+    <section class="content-section bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="cms-heading text-left mb-4">
+                        <h6 style="color:var(--color-accent); font-weight:700; text-transform:uppercase; letter-spacing:2px;">Sustainability</h6>
+                        <h2 class="custom-heading text-left">By-Products & Charcoal Briquettes</h2>
+                        <span class="heading-underline ml-0" style="margin-left:0;"></span>
+                    </div>
+                    <p>We are proud producers of 100% natural food-grade charcoal briquettes made from green material (rice husks). Processed from high-grade agricultural waste, they are used for starting and maintaining fires across various applications (BBQ, Incense, Hookah).</p>
+                    <ul class="list-unstyled feature-list text-muted mt-3">
+                        <li>100% Rice Husks Material</li>
+                        <li>Odorless with Low Ash Content</li>
+                        <li>Long Burning Time & Quick Ignition Time</li>
+                        <li>Manufactured via steam/air activation technique at 800°C to 1000°C</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <div style="background: var(--color-primary); color: #fff; padding: 40px; border-radius: 16px;">
+                        <h3 style="font-weight: 700; margin-bottom: 20px;">Our Certifications</h3>
+                        <ul class="list-unstyled" style="font-size: 16px; line-height: 1.8;">
+                            <li style="margin-bottom: 15px;"><i class="fas fa-check-circle" style="color: var(--color-accent); margin-right: 10px;"></i> NAFDAC Certified</li>
+                            <li style="margin-bottom: 15px;"><i class="fas fa-check-circle" style="color: var(--color-accent); margin-right: 10px;"></i> NESREA Certified</li>
+                            <li style="margin-bottom: 15px;"><i class="fas fa-check-circle" style="color: var(--color-accent); margin-right: 10px;"></i> Standard Organisation of Nigeria (SON) Certified</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GOALS -->
+    <section class="content-section">
+        <div class="container">
+            <div class="cms-heading text-center mb-5">
+                <h6 style="color:var(--color-accent); font-weight:700; text-transform:uppercase; letter-spacing:2px;">Our Promise</h6>
+                <h2 class="custom-heading mx-auto">Tiamin Rice Goals</h2>
+                <span class="heading-underline mx-auto"></span>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="goal-card" style="background: #124734;">
+                        <i class="fas fa-users"></i>
+                        <h4>Social Goal</h4>
+                        <p style="color: rgba(255,255,255,0.8);">To ensure better living conditions and basic civic amenities for the marginalized population.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="goal-card" style="background: #0a2e21;">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Economic Goal</h4>
+                        <p style="color: rgba(255,255,255,0.8);">To boost the Nigerian economy with food security and yield maximum growth and job opportunities for the Nigerian youth.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="goal-card" style="background: #059669;">
+                        <i class="fas fa-leaf"></i>
+                        <h4>Environmental Goal</h4>
+                        <p style="color: rgba(255,255,255,0.8);">Responsible use of resources so as to add on to nature's greenery that ensure minimum wastage of resources.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <a href="index.html" class="logo-image mb-3 d-block"><img src="assets/logo.jpg" alt="Tiamin Group" style="height: 60px; filter: drop-shadow(0px 2px 5px rgba(0,0,0,0.5));"></a>
+                    <p style="color:rgba(255,255,255,0.7); font-size:14px;">Headquartered in Kano, Nigeria. Empowering communities and driving economic growth through robust industrial integration.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4 class="footer-widget-title">Our Divisions</h4>
+                    <ul class="footer-menu">
+                        <li><a href="rice.html">Rice Processing</a></li>
+                        <li><a href="rice.html#farm">Agriculture & Farming</a></li>
+                        <li><a href="index.html#businesses">Road Construction</a></li>
+                        <li><a href="tcx.html">Commodity Exchange</a></li>
+                        <li><a href="gold.html">Global Trading</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4 class="footer-widget-title">Quick Links</h4>
+                    <ul class="footer-menu">
+                        <li><a href="about.html">About Tiamin</a></li>
+                        <li><a href="index.html#sustainability">Sustainability</a></li>
+                        <li><a href="index.html#media">News & Press</a></li>
+                        <li><a href="index.html#careers">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4 class="footer-widget-title">Contact Us</h4>
+                    <ul class="footer-menu" style="font-size: 13px; line-height: 1.6;">
+                        <li style="margin-bottom: 12px;"><i class="fas fa-map-marker-alt me-2 text-accent"></i> <strong>Kano Office:</strong> No. C-15 A.M. Shehu House, Amana City, Zaria Road, Kano</li>
+                        <li style="margin-bottom: 12px;"><i class="fas fa-map-marker-alt me-2 text-accent"></i> <strong>Bauchi Office:</strong> KM 13 Bauchi-Maiduguri Rd, Hauwa Sani Marshal House, Yuli Town</li>
+                        <li style="margin-bottom: 8px;"><i class="fas fa-phone me-2 text-accent"></i> +234 803 465 0072<br><span style="padding-left: 20px;">+234 803 687 4426</span></li>
+                        <li><i class="fas fa-envelope me-2 text-accent"></i> info@tiamingroup.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="mb-0">&copy; 2026 Tiamin Group. All rights reserved. For an Empowered Africa.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Sticky Header
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('masthead');
+            if (window.scrollY > 50) {
+                header.classList.add('sticky');
+            } else {
+                header.classList.remove('sticky');
+            }
+        });
+        
+        // Mobile Menu Toggle
+        document.querySelector('.mobile-toggle button').addEventListener('click', function() {
+            const nav = document.querySelector('.site-navigation');
+            nav.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
